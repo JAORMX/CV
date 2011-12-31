@@ -1,0 +1,151 @@
+% TODO: Agregar actividades de liderazgo.
+\documentclass[spanish,10pt,letterpaper]{article}
+% \usepackage[LabelsAligned]{currvita}		% versión compacta
+\usepackage[TextAligned]{currvita}
+
+\usepackage[cm]{fullpage}			% márgenes de 1"
+\usepackage[absolute,overlay]{textpos}		% posicionamiento absoluto
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,english]{babel}
+
+\usepackage{url}
+\usepackage[colorlinks,urlcolor=blue]{hyperref}
+
+\usepackage[pdftex]{color,graphicx}
+
+%\usepackage{newcent} % New Century Schoolbook, Avant Garde, Courier 
+\usepackage{palatino} % Palatino, Helevetica, Courier 
+%\usepackage{bookman}
+%\usepackage{lmodern}
+
+% begin of CV
+\begin{document}
+\centering
+\begin{cv}{Juan Antonio Osorio-Robles}
+
+% Para insertar una imagen:
+%	\begin{textblock}{0}(13,2)
+%		\includegraphics[height=2.6cm]{foto.jpg}
+%	\end{textblock}
+
+	\begin{table}[h]
+		\begin{tabular}{@{} l l p{0.5cm} l r}
+			{\bf Personal Information}	&	&	&	{\bf Contact}	&	\\
+			Date of birth &	January 8, 1990 (21 years old)	&	&
+			email	&	\href{mailto:jaosorior@gmail.com}	{\tt jaosorior@gmail.com}	\\
+			Marital status&	single &	&
+			Mobile &	{\tt +52~(1)~811.583.7910}	\\
+			Nationality &	Mexican		&	&
+			%land phone			&	{\tt +00~(0)~000.000.0000}
+		\end{tabular}
+	\end{table}
+	
+	\begin{cvlist}{Technical Skills}
+			\item [\textsc{Programming Languages}]
+				C, C++, Java, Racket (Scheme), Python, SQL, Javascript, PHP, bash scripting
+			\item [\textsc{Development Tools}]
+				Git, Subversion, Mercurial, Vim, Eclipse, gdb
+			\item [\textsc {Services and Technologies}]
+				Apache, Ajax, GTK+, JQuery, MapReduce, MySQL, Wave Gadgets \& Robots
+			\item [\textsc {Markup Languages}]
+				HTML, XML,
+				\LaTeX
+			\item [\textsc {Multimedia}]
+				GIMP, VLC, Audacity
+	\end{cvlist}
+
+	\begin{cvlist}{Professional Experience}
+		\item [July 2011 - December 2011]
+			Research project in ITESM for NIC Mexico (Monterrey, N.L., Mexico)
+			\\ \emph{Architecture design, programming (development)}
+			\\ I'm currently working with four teammates on a Linux implementation for the NAT64 mechanism, which has the purpose of enabling communication between IPv6 and IPv4 hosts. It's being implemented in kernel-space as a kernel module working with Netfilter. For user-space control, an iptables module is also being developed. The implementation will be open source and will be deployed in the company's servers.
+		\item [May 2010 - May 2011]
+			Research assistant in ITESM (Monterrey, N.L.)
+			\\ \emph{Architecture design, programming (development), user interface and testing}
+			\\ I developed an application (Gadget) for the Google Wave platform to collaboratively draw ER diagrams. I used HTML5 and the Wave platform's API. Also, I contributed to the research document, contributed to the implementation of the Wave Robots and designed the states (information) that the robots would be sharing and updating with the Gadget. After that, I contributed to the Open Source project Wave In a Box, studied its infrastructure and adapted code to fit the University's project. Besides that, I administered an Ubuntu Server with a co-worker inside Campus for the project's testing purposes.
+		\item [Summer 2010]
+			% Organization (location):
+			Administrative information system for the apartment complex ``Departamentos Coahuila'' (Monterrey, N.L.)
+			% Position:
+			\\ \emph{Programming (development), design and security}
+			% Responsibilities:
+			\\ A co-worker and I developed an information system to administer an apartment complex. It managed the tentants' contracts and payments, the apartments' availability and the printing of contracts, receipts and bills.
+			
+	\end{cvlist}
+
+	\begin{cvlist}{Education}
+%	\begin{cvlist}{Historia académica}
+		\item	[08/2008--]
+				ITESM, Campus Monterrey
+				\\
+				\emph{BCT - B.S. Computer Science and Technology (4.5 years)}
+				\\
+				MI - International Modality(\href{http://www.mty.itesm.mx/rectoria/dda/dacmi}{http://www.mty.itesm.mx/rectoria/dda/dacmi})
+				\\
+				Education grade point average: \emph{91/100}
+	\end{cvlist}
+
+	\begin{cvlist}{Awards \& Certifications}
+		\item [October 2011] Second Place winners of the ITESM's ACM Hackathon. As a team of 4 members, we developed an application to control a Linux computer from twitter.
+		\item [August - November 2011] Winners of the ITESM's Business Model presentation fair. As a team of 5 members, we developed the business model for a company whose revenue would from selling bioplastic-based products, we named the company BIOFASE. The project was developed for an entrepreneurship class and competed with other projects from all the entrepreneurship classes that semester.
+		\item [November 2011] Winners of the Business Model Challenge, with the BIOFASE project. As same BIOFASE team with an additional team member we competed against different project ideas for a free semester in the ITESM's Business Incubator.
+		\item [October-December 2011] Successfully finished the Introduction to Artificial Intelligence with a 90.2/100 grade. \href{http://ai-class.com}{http://ai-class.com}
+	\end{cvlist}
+
+
+	\begin{cvlist}{Languages}
+		\item [\textsc {Spanish}]
+				Native
+		\item [\textsc {English}]
+				TOEFL: \emph{103/120}
+		\item [\textsc {German}]
+				Intermediate, 2 years
+		\end{cvlist}
+
+	\begin{cvlist}{Interests}
+		\item [\textsc {Technology}]
+				Distributed computing, Linux programming and internals, operating systems internals, Open Source
+		\item [\textsc {Computer Science}]
+				Intelligent systems, machine learning, programming languages
+		\item [\textsc {Science and Arts}]
+				Philosophy, history, literature, music, visual arts 
+	\end{cvlist}
+
+	% Other traits, other matters of note.
+	\begin{cvlist}{Additional Information}
+		\item [  ] Linux user since 2008
+		\item [  ] Open Source enthusiast
+		\item [\textsc {Hobbies}]
+				Guitar, literature, films
+	\end{cvlist}
+
+	\begin{cvlist}{Other Activities}
+		\item [2008-2010] SAITC - Student group for the Computer Technologies Major
+		\item [2008] Box
+		\item [2010 - to date] GULTec - ITESM Linux User Group
+	\end{cvlist}
+
+	\begin{cvlist}{Webpages \& Code Repositories}
+		\item [Github] \href{http://github.com/JAORMX}{http://github.com/JAORMX}
+	\end{cvlist}
+	
+%	\begin{cvlist}{References}
+%		\item [Jabba the Hut (some sandy planet)]
+%			\href{mailto:jabba@hut.net}{jabba@hut.net}
+%	\end{cvlist}
+	
+		\cvplace{{\footnotesize Monterrey NL MX}}
+		\date{{\footnotesize \today}}
+	
+\end{cv}
+
+\begin{center}
+	{\footnotesize Rights Reserved}
+\end{center}
+
+%\begin{flushright}
+%	{\Huge $*$}{\tiny May The Force be with Me}
+%\end{flushright}
+
+\end{document}
