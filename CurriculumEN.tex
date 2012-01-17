@@ -2,7 +2,7 @@
 \documentclass[spanish,10pt,letterpaper]{article}
 % \usepackage[LabelsAligned]{currvita}		% versión compacta
 \usepackage[TextAligned]{currvita}
-
+	
 \usepackage[cm]{fullpage}			% márgenes de 1"
 \usepackage[absolute,overlay]{textpos}		% posicionamiento absoluto
 
@@ -34,36 +34,64 @@
 			{\bf Personal Information}	&	&	&	{\bf Contact}	&	\\
 			Date of birth &	January 8, 1990 (21 years old)	&	&
 			email	&	\href{mailto:jaosorior@gmail.com}	{\tt jaosorior@gmail.com}	\\
-			Mobile &	{\tt +52~(1)~811.583.7910}	\\
+			%Mobile &	{\tt +52~(1)~811.583.7910}	\\
+			Mobile &	{\tt 0458507886}
 		\end{tabular}
 	\end{table}
+
+	\begin{cvlist}{Introduction}
+		\item[	]
+			I'm a very patient and enthusiastic person that loves to learn. Even though I like to give problems a thorough analysis, I also enjoy team work and try to promote a relaxed work environment. Also, I love challenges and am very good handling stress, but I'm not afraid to ask for help when needed.
+	\end{cvlist}
+
 	
 	\begin{cvlist}{Technical Skills}
 			\item [\textsc{Programming Languages}]
-				C, Java, Racket (Scheme), Python, SQL, Javascript, PHP, bash scripting
+				C(excelent), Java(good), Racket (Scheme)(good), Python(satisfactory), SQL(good), Javascript(good), PHP(good), bash scripting (satisfactory)
 			\item [\textsc{Development Tools}]
 				Git, Subversion, Mercurial, Vim, Eclipse, gdb
 			\item [\textsc {Services and Technologies}]
 				Apache, Ajax, GTK+, JQuery, Netfilter, MySQL, Wave Gadgets \& Robots
+			\item [\textsc {SW Development Methods}]
+				Agile Methodologies (Extreme Programming, Scrum), with Object Oriented Design (UML)
 			\item [\textsc {Markup Languages}]
 				HTML, XML,
 				\LaTeX
-			\item [\textsc {Multimedia}]
-				GIMP, VLC, Audacity
+			\item [\textsc {Operating Systems}]
+				Linux (good and enthusiast), I'm eager to learn about other OS's (specially open ones)
+	\end{cvlist}
+
+	\begin{cvlist}{Education}
+%	\begin{cvlist}{Historia académica}
+		\item [January 2012 - December 2012]
+			Aalto University, School of Science, Helsinki, Finland
+			\\
+			Exchange student. Computer Science Department in the School of Science
+			\\
+			\href{www.aalto.fi/en}{www.aalto.fi/en}
+
+		\item	[August 2008-- to date]
+			ITESM, Campus Monterrey. Monterrey N.L., M\'{e}xico
+			\\
+			\emph{BCT - B.S. Computer Science and Technology (4.5 years)}
+			\\
+			MI - International Modality(\href{http://www.mty.itesm.mx/rectoria/dda/dacmi}{http://www.mty.itesm.mx/rectoria/dda/dacmi})
+			\\
+			Education grade point average: \emph{92/100}
 	\end{cvlist}
 
 	\begin{cvlist}{Professional Experience}
 		\item [July 2011 - December 2011]
-			Research project in ITESM for NIC Mexico (Monterrey, N.L., Mexico)
+			Research project in ITESM for NIC Mexico (Monterrey, N.L., M\'{e}xico)
 			\\ \emph{Architecture design, programming (development)}
-			\\ I participated as the architect and one of the developers of a Linux implementation for the NAT64 mechanism (based on the RFC6146), which has the purpose of enabling communication between IPv6 and IPv4 hosts. It was implemented as a kernel module working with Netfilter, which would be the kernel-space component. For user-space control, an iptables module was also being developed. The implementation is open source under the GPLv3 license.
+			\\ I participated as the architect and one of the developers of a Linux implementation for the NAT64 mechanism (based on the RFC6146), which has the purpose of enabling communication between IPv6 and IPv4 hosts. It was implemented as a kernel module, written in C, working with Netfilter, which would be the kernel-space component. For user-space control, an iptables module was also being developed. The implementation is open source under the GPLv3 license.
 		\item [May 2010 - May 2011]
-			Research assistant in ITESM (Monterrey, N.L.)
+			Research assistant in ITESM (Monterrey, N.L., M\'{e}xico)
 			\\ \emph{Architecture design, programming (development), user interface and testing}
 			\\ I developed an application (Gadget) for the Google Wave platform to collaboratively draw ER diagrams. I used HTML5 and the Wave platform's API. Also, I contributed to the research document and designed the states (information) that the robots would be sharing and updating with the Gadget. After that, I contributed to the Open Source project Wave In a Box, studied its infrastructure and adapted code to fit the University's project. Besides that, I administered an Ubuntu Server with a co-worker inside Campus for the project's testing purposes.
 		\item [Summer 2010]
 			% Organization (location):
-			Administrative information system for the apartment complex ``Departamentos Coahuila'' (Monterrey, N.L.)
+			Administrative information system for the apartment complex ``Departamentos Coahuila'' (Monterrey, N.L., M\'{e}xico)
 			% Position:
 			\\ \emph{Programming (development), design and security}
 			% Responsibilities:
@@ -71,29 +99,12 @@
 			
 	\end{cvlist}
 
-	\begin{cvlist}{Education}
-%	\begin{cvlist}{Historia académica}
-		\item	[August 2008-- to date]
-			ITESM, Campus Monterrey
-			\\
-			\emph{BCT - B.S. Computer Science and Technology (4.5 years)}
-			\\
-			MI - International Modality(\href{http://www.mty.itesm.mx/rectoria/dda/dacmi}{http://www.mty.itesm.mx/rectoria/dda/dacmi})
-			\\
-			Education grade point average: \emph{92/100}
-		\item [January 2012 - December 2012]
-			Aalto University, School of Science, Helsinki, Finland
-			\\
-			Exchange student
-			\\
-			\href{www.aalto.fi/en}{www.aalto.fi/en}
-	\end{cvlist}
-
 	\begin{cvlist}{Awards \& Certifications}
-		\item [October 2011] Second Place winners of the ITESM's ACM Hackathon. As a team of 4 members, we developed an application to control a Linux computer from twitter.
-		\item [August - November 2011] Winners of the ITESM's Business Model presentation fair. As a team of 5 members, we developed the business model for a company whose revenue would from selling bioplastic-based products, we named the company BIOFASE. The project was developed for an entrepreneurship class and competed with other projects from all the entrepreneurship classes that semester.
-		\item [November 2011] Winners of the Business Model Challenge, with the BIOFASE project. As same BIOFASE team with an additional team member we competed against different project ideas for a free semester in the ITESM's Business Incubator.
-		\item [October-December 2011] Successfully finished the Introduction to Artificial Intelligence with a 90.2/100 grade. \href{http://ai-class.com}{http://ai-class.com}
+		\item [October 2011] Second Place winners of the ITESM's ACM Hackathon. As a team of 4 members, we developed an application to control a Linux computer from twitter.(Monterrey, N.L., M\'{e}xico)
+		\item [August - November 2011] Winners of the ITESM's Business Model presentation fair. As a team of 5 members, we developed the business model for a company whose revenue would from selling bioplastic-based products, we named the company BIOFASE. The project was developed for an entrepreneurship class and competed with other projects from all the entrepreneurship classes that semester.(Monterrey, N.L., M\'{e}xico)
+		\item [November 2011] Winners of the Business Model Challenge, with the BIOFASE project. As same BIOFASE team with an additional team member we competed against different project ideas for a free semester in the ITESM's Business Incubator.(Monterrey, N.L., M\'{e}xico)
+		\item [October-December 2011] Successfully finished the Introduction to Artificial Intelligence with a 90.2/100 grade. \\
+		\href{http://ai-class.com}{http://ai-class.com}.(Online course given in partnership with Stanford Engineering)
 	\end{cvlist}
 
 
@@ -109,18 +120,12 @@
 	\begin{cvlist}{Interests}
 		\item [\textsc {Technology}]
 				Distributed computing, Linux programming and internals, operating systems internals, Open Source
-		\item [\textsc {Computer Science}]
-				Intelligent systems, machine learning, programming languages
-		\item [\textsc {Science and Arts}]
-				Philosophy, history, literature, music, visual arts 
-	\end{cvlist}
-
-	% Other traits, other matters of note.
-	\begin{cvlist}{Additional Information}
 		\item [  ] Linux user since 2008
 		\item [  ] Open Source enthusiast
+		\item [\textsc {Computer Science}]
+				Intelligent systems, machine learning, programming languages
 		\item [\textsc {Hobbies}]
-				Guitar, philosophy, films
+				Guitar, philosophy, music, literature, films
 	\end{cvlist}
 
 	\begin{cvlist}{Other Activities}
@@ -135,21 +140,20 @@
 		\item [Github] \href{http://github.com/JAORMX}{http://github.com/JAORMX}
 	\end{cvlist}
 	
-	\begin{cvlist}{References}
-		\item [Juan Arturo Nolazco (Director of the ITESM's Computer Science Department)]
-			\href{mailto:juan.nolazco@gmail.com}{juan.nolazco@gmail.com}
-		\item [José Ignacio Icaza (Profesor and Researcher at ITESM)]
-			\href{mailto:josei09@gmail.com}{josei09@gmail.com}
-	\end{cvlist}
+%	\begin{cvlist}{References}
+%		\item [Juan Arturo Nolazco (Director of the ITESM's Computer Science Department)]
+%			\href{mailto:juan.nolazco@gmail.com}{juan.nolazco@gmail.com}
+%		\item [José Ignacio Icaza (Profesor and Researcher at ITESM)]
+%			\href{mailto:josei09@gmail.com}{josei09@gmail.com}
+%	\end{cvlist}
 	
-		\cvplace{{\footnotesize Monterrey NL MX}}
-		\date{{\footnotesize \today}}
+%\date{{\footnotesize \today}}
 	
 \end{cv}
 
-\begin{center}
-	{\footnotesize Rights Reserved}
-\end{center}
+%\begin{center}
+%	{\footnotesize Rights Reserved}
+%\end{center}
 
 %\begin{flushright}
 %	{\Huge $*$}{\tiny May The Force be with Me}
