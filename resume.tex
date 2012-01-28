@@ -1,0 +1,107 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass{res} 
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\newsectionwidth{0pt}  % So the text is not indented under section headings
+\setlength{\textheight}{10.2in} % set text height big enough for box
+\topmargin=-.5in       % to start box .5in from top of page
+\oddsidemargin=-.5in   % to start box .5in from left of page
+    
+\begin{document}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The following lines define \boxaround, used to draw a box on the page.
+% The parameter is the entire text of the resume. Must fit on one page!
+%
+% \boxaroundhmargin is the left & right margin around the text inside the box.
+% \boxaroundvmargin is the top & bottom margin around the text inside the box.
+% \boxrulethickness controls thickness of line used to draw the box.
+% You can change these 3 things in the lines below:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newdimen\boxrulethickness\newdimen\boxaroundhmargin\newdimen\boxaroundvmargin
+%\boxrulethickness=.5pt        %controls thickness of line 
+%\boxaroundhmargin=35pt        % about a half inch
+%\boxaroundvmargin=40pt        % to fit more text on page, make this smaller
+%%%%%%%%%%%%%%%%%%%%%%%%% Don't read this stuff %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\hsize=7.5in% \vsize=10.5in             % use bigger dimensions for box
+%\newbox\MACboxA  \newdimen\MACdimenA
+% \borderandboxit is used inside \boxaround:
+%\def\borderandboxit#1#2#3{\vbox{\hrule height#2\hbox{\vrule width#2\hskip#1\hskip-#2%
+%  \vbox{\vskip#1\relax#3\vskip#1}\hskip#1\hskip-#2\vrule width#2}\hrule height#2}}
+%
+%\long\def\boxaround#1{\vskip6pt
+%  {\MACdimenA=\hsize \advance\MACdimenA by-\boxaroundhmargin
+%   \advance\MACdimenA by-\boxaroundhmargin   % once for each side
+%   \setbox\MACboxA=\hbox to \hsize{\hskip\boxaroundhmargin%\hss
+%                     \vbox{\hsize=\MACdimenA
+%                           \vskip\boxaroundvmargin #1
+%                           \vskip\boxaroundvmargin}\hss}%
+%   \borderandboxit{0pt}\boxrulethickness{\box\MACboxA}}%
+%  \vskip2pt plus0pt minus0pt
+%}
+%%%%%%%%%%%%%%%%%%%  End of \boxaround macro %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+%\boxaround{ % put the text on the page inside a box  
+
+\name{Juan Antonio Osorio-Robles\\[12pt]}
+\address{\bf Current Address:\\ J\"{a}mer\"{a}ntaival 5A 124, 02150 Espoo, Finland\\
+Mobile: {\tt (+358)0458507886}} 
+\address{\bf Permanent Address:\\ Guayanas 1021, Col. Guadalupe, \\ Monclova, Coahuila, M\'{e}xico}
+
+ 
+\begin{resume}
+
+\section{\sl  Education}
+\textbf{\emph{Aalto University}}, School of Science. Helsinki, Finland. Exchange student in the Computer Science Department. January 2012 to December 2012. \\
+\textbf{\emph{ITESM}}, Campus Monterrey. Monterrey, N.L., M\'{e}xico. B.S. in Computer Science and Technologies. International Modality. GPA: 3.7. August 2008 -- May 2013
+ 
+\section{\sl Technical Skills}
+ \textbf{\emph{Programming \& Markup Languages}:}
+C(3 years), Java(3 years), Scheme(1.5 years), Python(6 months), SQL(2 years), Javascript(2 years), PHP(2.5 years), bash scripting (2 years), HTML, XML,\LaTeX \\
+ \textbf{\emph{Development Tools, Services \& Technologies}:}
+Git, Subversion, Mercurial, Vim, Eclipse, gdb, 
+Apache, Ajax, GTK+, JQuery, Netfilter, MySQL, Wave Gadgets \& Robots \\
+ \textbf{\emph{SW Development Methods}:}
+Agile Methodologies (Extreme Programming, Scrum), with Object Oriented Design (UML) \\
+\textbf{\emph{Operating Systems}:}
+Linux (good and enthusiast) \\
+
+\section{\sl Professional Experience}
+\begin{ncolumn}{2}
+{\it Research project in ITESM for NIC Mexico}  &   July 2011 - December 2011 
+\end{ncolumn}\\
+Monterrey, N.L., M\'{e}xico \\
+Architect and developer lead of a Linux implementation for the NAT64 mechanism (based on the RFC6146), which had the purpose of enabling communication between IPv6 and IPv4 hosts. It was implemented as a kernel module, written in C, working with Netfilter, which would be the kernel-space component. For user-space control, an iptables module was also being developed. The implementation is open source under the GPLv3 license.
+
+\begin{ncolumn}{2}
+{\it Research project in ITESM}  &   May 2010 - May 2011 
+\end{ncolumn}\\
+Monterrey, N.L., M\'{e}xico \\
+I developed an application (Gadget) for the Google Wave platform to collaboratively draw ER diagrams. The project used web technologies such as HTML5 and the Wave platform's API. Also, I contributed to the research document and designed the states (information) that the robots would be sharing and updating with the Gadget. I also contributed to the Open Source project Wave In a Box, studied its infrastructure and adapted code to fit the University's project. I was responsable for administrating an Ubuntu Server with a co-worker inside Campus for the project's testing purposes.
+
+\begin{ncolumn}{2}
+{\it Freelance web development project}  &  Summer 2010 
+\end{ncolumn}\\
+Monterrey, N.L., M\'{e}xico \\
+A co-worker and I developed an information system to administer an apartment complex. It managed the tentants' contracts and payments, the apartments' availability and the printing of contracts, receipts and bills.
+	
+\section{\sl  Awards \& Certifications}
+Second place in the ITESM's ACM Hackathon. \\
+Winner (with a team of 5) of the ITESM's Bussiness Model Presentation fair. \\
+Winner (with a team of 5) of the ITESM's Bussiness Model Challenge. \\
+90.2/100 in the Introduction to Artificial Intelligence class (ai-class), given in partnership with Stanford Engineering
+ 
+\section{\sl  Activities \& Interests}
+ITESM's Linux User Group\\
+Open Source enthusiast \\
+Technological interests: Distributed computing, Linux programming and internals, operating systems internals, Intelligent systems, machine learning, programming languages \\
+Other interests include: Guitar, philosophy, music, literature, films
+
+\end{resume}
+
+%\vfill} %    end the material being boxed.
+\end{document}
+
+
