@@ -1,10 +1,9 @@
-% TODO: Agregar actividades de liderazgo.
 \documentclass[spanish,10pt,letterpaper]{article}
-% \usepackage[LabelsAligned]{currvita}		% versión compacta
+% \usepackage[LabelsAligned]{currvita}		% compact
 \usepackage[TextAligned]{currvita}
 
-\usepackage[cm]{fullpage}			% márgenes de 1"
-\usepackage[absolute,overlay]{textpos}		% posicionamiento absoluto
+\usepackage[cm]{fullpage}
+\usepackage[absolute,overlay]{textpos}
 
 \usepackage[utf8]{inputenc}
 \usepackage[spanish,english]{babel}
@@ -19,88 +18,178 @@
 %\usepackage{bookman}
 %\usepackage{lmodern}
 
-% begin of CV
+% begin CV
 \begin{document}
 \centering
 \begin{cv}{Juan Antonio Osorio-Robles}
 
-% Para insertar una imagen:
-%	\begin{textblock}{0}(13,2)
-%		\includegraphics[height=2.6cm]{foto.jpg}
-%	\end{textblock}
-
 	\begin{table}[h]
 		\begin{tabular}{@{} l l p{0.5cm} l r}
-			{\bf Personal Information}	&	&	&	{\bf Contact}	&	\\
-			Date of birth &	January 8, 1990 (21 years old)	&	&
-			email	&	\href{mailto:jaosorior@gmail.com}	{\tt jaosorior@gmail.com}	\\
-			%Mobile &	{\tt +52~(1)~811.583.7910}	\\
-			Mobile &	{\tt 0458507886}
+			{\bf Personal Information}	&	&	&	{\bf Contact}	&\\
+			Date of birth &	January 8, 1990 (25 years old)	&	&
+			email & \href{mailto:jaosorior@gmail.com}{\tt jaosorior@gmail.com}\\
 		\end{tabular}
 	\end{table}
 
 	\begin{cvlist}{Introduction}
-		\item[	]
-			I'm a very patient and enthusiastic person that loves to learn. Even though I like to give problems a thorough analysis, I also enjoy team work and try to promote a relaxed work environment. Also, I love challenges and am very good handling stress, but I'm not afraid to ask for help when needed.
+        \item[\textsc{Summary}]
+            I'm a Mexican software developer aiming to achieve mastery in
+            Software Craftsmanship. Meaning I take time and pride in refining
+            methods and practices in order to achieve this. I'm very passionate
+            about learning new technologies and building software the best and
+            most skillful way that I can.
+        \item[\textsc{Main assets}]
+            Focus on maintainable, elegant and clean code.\\
+            I will go as deep as I need to go to fix a problem.\\
+            Comfortable in big code bases.\\
+            I will not only focus on the technical side, I will also try to get
+            a good grasp of the big picture and even the strategy behind it.
 	\end{cvlist}
 
 
 	\begin{cvlist}{Technical Skills}
-			\item [\textsc{Programming Languages}]
-				C(3 years), Java(3 years), Scheme(1.5 years), Python(6 months), SQL(2 years), Javascript(2 years), PHP(2.5 years), bash scripting (2 years)
+			\item [\textsc{Languages}]
+                Python (main language), C (professional experience), Java
+                (can review code but need to time remember), SQL, Javascript,
+                Scheme, PHP, bash scripting (bread of every day)
+			\item [\textsc{Technologies}]
+                OpenStack (I'm an Active Technical Contributor), Docker,
+                KVM (Basic experience to set my environment for OpenStack),
+                Puppet (basic experience), GStreamer
 			\item [\textsc{Development Tools}]
-				Git, Subversion, Mercurial, Vim, Eclipse, gdb
-			\item [\textsc {Services and Technologies}]
-				Apache, Ajax, GTK+, JQuery, Netfilter, MySQL, Wave Gadgets \& Robots
+                Git (proficient), Vim (main editor), Subversion, Mercurial,
+                Eclipse (I'll use if needed)
 			\item [\textsc {SW Development Methods}]
-				Agile Methodologies (Extreme Programming, Scrum), with Object Oriented Design (UML)
-			\item [\textsc {Markup Languages}]
-				HTML, XML,
-				\LaTeX
+				Fond of the Continuous Integration for Software.\\
+                TDD: I've given small workshops at work about it.\\
+                I've also worked with Agile Methodologies (Kanban, Extreme
+                Programming \& Scrum)
 			\item [\textsc {Operating Systems}]
-				Linux (good and enthusiast), I'm eager to learn about other OS's (specially open ones)
-	\end{cvlist}
-
-	\begin{cvlist}{Education}
-%	\begin{cvlist}{Historia académica}
-		\item [January 2012 - December 2012]
-			Aalto University, School of Science, Helsinki, Finland
-			\\
-			Exchange student. Computer Science Department in the School of Science
-			\\
-			\href{www.aalto.fi/en}{www.aalto.fi/en}
-
-		\item	[August 2008-- to date]
-			ITESM, Campus Monterrey. Monterrey N.L., M\'{e}xico
-			\\
-			\emph{BCT - B.S. Computer Science and Technology (4.5 years)}
-			\\
-			MI - International Modality(\href{http://www.mty.itesm.mx/rectoria/dda/dacmi}{http://www.mty.itesm.mx/rectoria/dda/dacmi})
-			\\
-			Education grade point average: \emph{92/100}
+                Mostly have worked with Linux (Archlinux as main distro, but
+                have also used Ubuntu, Debian and to a smaller extent
+                Fedora).\\
+                I'm eager to learn about other distros and even OS's (specially
+                open ones)
 	\end{cvlist}
 
 	\begin{cvlist}{Professional Experience}
+		\item [April 2014 - Present]
+            \textbf{Senior Software Developer @ Ericsson} (Finland)\\
+            My main task is to contribute directly to the
+            \textbf{OpenStack} project as part of a team dedicated to
+            open-source entirely; Here I actively interact with the
+            community, review commits and push code to the projects. I'm a
+            \textbf{core-developer} in the \textbf{Barbican} project in
+            OpenStack and also an active contributor to the \textbf{OPNFV}
+            initiative, where I form part of the Security Group and forming
+            the audit-oriented \textbf{Inspector} project there.\\
+
+            \href{http://stackalytics.com/?metric=commits&user_id=juan-osorio-robles}
+            {\url{http://stackalytics.com/?metric=commits&user_id=juan-osorio-robles}}
+
+            Before this I was part of an integration task force, with the
+            aim of creating a sustainable development environment for
+            developers to build on. The environment was based on
+            \textbf{Docker} in order to ensure the uniformity of
+            environments and to create quick and consistent builds.\\
+
+            For a while I was also part of the Cloud Security team where
+            I did numerous tasks, such as implement security related
+            features; harden and test the security in our cloud solution,
+            among other activities.
+
+		\item [June 2012 - April 2014]
+            \textbf{Software Developer @ Ericsson} (Finland)\\
+            Worked in multimedia-based applications, as a developer in
+            Ericsson's Media Gateway. Here, The type and nature of the
+            tasks I performed were diverse: I've been taken part in the
+            development of high performance multimedia systems; coded
+            scripts to aid in version control systems migration (passed
+            from a legacy VCS to \textbf{Git}); took part in developing a
+            visualization of the development process within the division;
+            amongst other things.\\
+
+            Aside from that, every once in a while I gave guidance
+            regarding Open Source processes (licensing and implications).
+
 		\item [July 2011 - December 2011]
-			Research project in ITESM for NIC Mexico (Monterrey, N.L., M\'{e}xico)
-			\\ \emph{Architecture design, programming (development)}
-			\\ Architect and developer lead of a Linux implementation for the NAT64 mechanism (based on the RFC6146), which had the purpose of enabling communication between IPv6 and IPv4 hosts. It was implemented as a kernel module, written in C, working with Netfilter, which would be the kernel-space component. For user-space control, an iptables module was also being developed. The implementation is open source under the GPLv3 license.
+            \textbf{Research assistant/Developer @ NIC Mexico} (Monterrey,
+            N.L., M\'{e}xico)\\
+            Developer lead of a Linux implementation for the \textbf{NAT64}
+            mechanism (based on the RFC6146), which had the purpose of
+            enabling communication between IPv6 and IPv4 hosts. It was
+            implemented as a \textbf{kernel module}, written in \textbf{C},
+            working with \textbf{Netfilter}, which would be the kernel-space
+            component. For user-space control, an iptables module was also
+            being developed. The implementation is open source:
+            \href{http://jool.mx/}{http://jool.mx/} \&
+            \href{https://github.com/NICMx/NAT64}{https://github.com/NICMx/NAT64}.
+
 		\item [May 2010 - May 2011]
-			Research assistant in ITESM (Monterrey, N.L., M\'{e}xico)
-			\\ \emph{Architecture design, programming (development), user interface and testing}
-			\\ I developed an application (Gadget) for the Google Wave platform to collaboratively draw ER diagrams. The project used web technologies such as HTML5 and the Wave platform's API. Also, I contributed to the research document and designed the states (information) that the robots would be sharing and updating with the Gadget. I also contributed to the Open Source project Wave In a Box, studied its infrastructure and adapted code to fit the University's project. I was responsable for administrating an Ubuntu Server with a co-worker inside Campus for the project's testing purposes.
+            \textbf{Research assistant @ ITESM} (Monterrey, N.L., M\'{e}xico)\\
+            I developed an application (Gadget) for the \textbf{Google Wave}
+            platform to collaboratively draw ER diagrams. The project used web
+            technologies such as \textbf{HTML5} and the Wave platform's API,
+            which is based in \textbf{Java}. Also, I also contributing to the
+            writing of the research paper, but mostly my role was technical.\\
+
+            I also contributed to the Open Source project Wave In a Box,
+            studied its infrastructure and adapted code to fit the
+            University's project. I was responsible for administrating an
+            Ubuntu Server with a co-worker inside Campus for the project's
+            testing purposes.
+
 		\item [Summer 2010]
-			Administrative information system for the apartment complex ``Departamentos Coahuila'' (Monterrey, N.L., M\'{e}xico)
-			\\ \emph{Programming (development), design and security}
-			\\ A co-worker and I developed an information system to administer an apartment complex. It managed the tentants' contracts and payments, the apartments' availability and the printing of contracts, receipts and bills.
+            \textbf{Freelance}(Monterrey, N.L., M\'{e}xico)\\
+			A co-worker and I developed an information system to administer an
+            apartment complex. It managed the tentants' contracts and payments,
+            the apartments' availability and the printing of contracts,
+            receipts and bills.\\
+
+            The system is being used by the landord even today.
 
 	\end{cvlist}
 
+    \begin{cvlist}{Other Project(s)}
+		\item [January 2012 - May 2012]
+            \textbf{Operating Systems Project}(Aalto University, Finland)\\
+            With a team consisting of me and two classmates, we successfully
+            extended an incomplete operating system, implementing the scheduler,
+            system calls, file system, network driver, concurrency manager,
+            memory management, a shell, among other things, for a MIPS
+            processor.
+	\end{cvlist}
+
+	\begin{cvlist}{Education}
+		\item [January 2012 - December 2012]
+			Aalto University, School of Science, Helsinki, Finland\\
+			Exchange student. Computer Science Department in the School of
+            Science\\
+			\href{www.aalto.fi/en}{www.aalto.fi/en}
+
+		\item	[August 2008-- August 2013]
+			ITESM, Campus Monterrey. Monterrey N.L., M\'{e}xico\\
+			\emph{BCT - B.S. Computer Science and Technology (4.5 years)}\\
+			MI - International Modality(
+            \href{http://www.mty.itesm.mx/rectoria/dda/dacmi}{http://www.mty.itesm.mx/rectoria/dda/dacmi})\\
+			Education grade point average: \emph{92/100}
+	\end{cvlist}
+
 	\begin{cvlist}{Awards \& Certifications}
-		\item [October 2011] Second Place winners of the ITESM's ACM Hackathon. As a team of 4 members, we developed an application to control a Linux computer from twitter.(Monterrey, N.L., M\'{e}xico)
-		\item [August - November 2011] Winners of the ITESM's Business Model presentation fair and the Business Model Challenge. Developed the business model for a company called BIOFASE (team of 5) that sells bioplastic-based products. The project was developed for an entrepreneurship class and competed with other projects from all the entrepreneurship classes that semester. (Monterrey, N.L., M\'{e}xico).
-		\item [October-December 2011] Successfully finished the Introduction to Artificial Intelligence with a 90.2/100 grade. \\
-		\href{http://ai-class.com}{http://ai-class.com}.(Online course given in partnership with Stanford Engineering)
+		\item [October 2011] Second Place winners of the ITESM's ACM Hackathon.
+            As a team of 4 members, we developed an application to control a
+            Linux computer from twitter.(Monterrey, N.L., M\'{e}xico)
+		\item [August - November 2011] Winners of the ITESM's Business Model
+            presentation fair and the Business Model Challenge. Developed the
+            business model for a company called BIOFASE (team of 5) that sells
+            bioplastic-based products. The project was developed for an
+            entrepreneurship class and competed with other projects from all
+            the entrepreneurship classes that semester.
+            (Monterrey, N.L., M\'{e}xico).
+		\item [October-December 2011] Successfully finished the Introduction to
+            Artificial Intelligence with a 90.2/100 grade. \\
+		    \href{http://ai-class.com}{http://ai-class.com}. (Online course
+            given in partnership with Stanford Engineering)
 	\end{cvlist}
 
 
@@ -113,46 +202,22 @@
 				Intermediate, 2 years
 		\end{cvlist}
 
-	\begin{cvlist}{Interests}
-		\item [\textsc {Technology}]
-				Distributed computing, Linux programming and internals, operating systems internals, Open Source
-		\item [  ] Linux user since 2008
-		\item [  ] Open Source enthusiast
-		\item [\textsc {Computer Science}]
-				Intelligent systems, machine learning, programming languages
-		\item [\textsc {Hobbies}]
-				Guitar, philosophy, music, literature, films
-	\end{cvlist}
-
 	\begin{cvlist}{Other Activities}
-		\item [2008-2010] SAITC - Student group for the Computer Technologies Major.\\
-			I participated in the various events the Student group organized, notably, the Format Fest, Which is the Student group's biggest event. The event is held each semester and consists of a whole weekend fixing computers of the university's students for a minimal fee.
-		\item [2008] Box
-		\item [2010 - to date] GULTec - ITESM Linux User Group.\\
-			I organized and helped organize technical workshops, which were given for free either by me, other members of the group, or by professionals. I also was part of the organization of the event called "Interunivesitario de Software Libre 2011", which took place in various universities at the same time and was transmited via Ustream. There, I gave a presentation about Open Source Compliance. I had contact with some companies and gave announcements to the group members about the vacancies available. And, I was also in charge of administering the group's server for some months.
+		\item [2010 - 2012] GULTec - ITESM Linux User Group.\\
+			I organized and helped organize technical workshops, which were
+            given for free either by me, other members of the group, or by
+            professionals. I also was part of the organization of the event
+            called "Interunivesitario de Software Libre 2011", which took place
+            in various universities at the same time and was transmitted via
+            Ustream. There, I gave a presentation about Open Source Compliance.
+            I had contact with some companies and gave announcements to the
+            group members about the vacancies available.
 	\end{cvlist}
 
 	\begin{cvlist}{Webpages \& Code Repositories}
 		\item [Github] \href{http://github.com/JAORMX}{http://github.com/JAORMX}
 	\end{cvlist}
 
-%	\begin{cvlist}{References}
-%		\item [Juan Arturo Nolazco (Director of the ITESM's Computer Science Department)]
-%			\href{mailto:juan.nolazco@gmail.com}{juan.nolazco@gmail.com}
-%		\item [José Ignacio Icaza (Profesor and Researcher at ITESM)]
-%			\href{mailto:josei09@gmail.com}{josei09@gmail.com}
-%	\end{cvlist}
-
-%\date{{\footnotesize \today}}
-
 \end{cv}
-
-%\begin{center}
-%	{\footnotesize Rights Reserved}
-%\end{center}
-
-%\begin{flushright}
-%	{\Huge $*$}{\tiny May The Force be with Me}
-%\end{flushright}
 
 \end{document}
