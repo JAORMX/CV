@@ -20,47 +20,52 @@
 
 	\begin{table}[h]
 		\begin{tabular}{@{} l l p{0.5cm} l r}
-			{\bf Personal Information}	&	&	&	{\bf Contact}	&\\
-			Date of birth &	January 8, 1990	&	&
+			{\bf Contact}	&\\
 			email & \href{mailto:jaosorior@gmail.com}{\tt jaosorior@gmail.com}\\
 		\end{tabular}
 	\end{table}
 
 	\begin{cvlist}{Introduction}
         \item[\textsc{Summary}]
-            I'm a software developer passionate about learning new technologies
+            I'm a software engineer passionate about learning new technologies
             and building software the best and most skillful way that I can.
 	\end{cvlist}
 
 	\begin{cvlist}{Webpages \& Code Repositories}
         \item [\textsc{Github}]
-            \href{http://github.com/JAORMX}{http://github.com/JAORMX}
+            \url{http://github.com/JAORMX}
 
         \item [\textsc{Blog}]
-            \href{https://jaormx.github.io/}{https://jaormx.github.io/}
-	\end{cvlist}
-
-    \begin{cvlist}{Open Source Community Positions}
-		\item []
-            I'm a core-developer in the \textbf{Barbican} project (Secret
-            Storage As a Service) and \textbf{TripleO} project (OpenStack
-            over Openstack - a cloud deployment tool) in the OpenStack
-            community. I'm aslo the PTL (Project Technical Lead) for the
-            TripleO project, and leading the TripleO Security Squad. I'm
-            one of the maintainers for the \textbf{puppet-certmonger} puppet
-            module.
+            \url{https://jaosorior.dev/}
 	\end{cvlist}
 
 	\begin{cvlist}{Professional Experience}
-		\item [September 2015 - present]
-            \textbf{Senior Software Developer @ Red Hat} (Finland)\\
+		\item [March 2019 - present]
+            \textbf{Principal Software Engineer @ Red Hat} (Finland)\\
+            I lead a team with a focus on improving security and ensuring that
+            OpenShift \& RHCoreOS meet standards required in regulated
+            industries. \\
+
+            Here, aside from assessing security controls and making sure the
+            products can fulfil them. We developed the
+            \href{https://github.com/openshift/compliance-operator}{compliance-operator},
+            which helps folks both evaluate and get closer to compliance with
+            different security standards in a declarative and cloud-native
+            manner. We also developed the 
+            \href{https://github.com/openshift/file-integrity-operator}{file-integrity-operator},
+            which ensures files are not modified without the administrators'
+            consent, helping secure the deployment.
+
+
+
+		\item [September 2015 - March 2019]
+            \textbf{Senior Software Engineer @ Red Hat} (Finland)\\
             I'm part of the OpenStack-focused Identity/Security team in Red
             Hat. I've driven efforts to improve the security of the deployment
             overall, such as TLS enablement, policy enhancements, IPSec,
             FreeIPA integration; all following an upstream-first approach.
 
-            \href{http://stackalytics.com/?metric=commits&release=all&user_id=jaosorior&company=red\%20hat}
-            {\url{http://stackalytics.com/?metric=commits&release=all&user_id=jaosorior&company=red\%20hat}}
+            \url{http://stackalytics.com/?metric=commits&release=all&user_id=jaosorior&company=red\%20hat}
 
 		\item [April 2014 - September 2015]
             \textbf{Senior Software Developer @ Ericsson} (Finland)\\
@@ -69,8 +74,7 @@
             community, where we started the \textbf{Inspector} project to
             enhance the auditability of OpenStack. \\
 
-            \href{http://stackalytics.com/?metric=commits&release=all&user_id=jaosorior&company=ericsson}
-            {\url{http://stackalytics.com/?metric=commits&release=all&user_id=jaosorior&company=ericsson}}
+            \url{http://stackalytics.com/?metric=commits&release=all&user_id=jaosorior&company=ericsson}
 
             Before this I was part of an integration task force, with the
             aim of creating a sustainable development environment for
@@ -102,42 +106,48 @@
             working with \textbf{Netfilter}. For user-space control, an
             iptables module was also developed. The implementation is
             open-source:
-            \href{http://jool.mx/}{http://jool.mx/} \&\\
-            \href{https://github.com/NICMx/NAT64}{https://github.com/NICMx/NAT64}.
-
-		\item [May 2010 - May 2011]
-            \textbf{Research assistant @ ITESM} (Monterrey, N.L., M\'{e}xico)\\
-            I developed an application (Gadget) for the \textbf{Google Wave}
-            platform to collaboratively draw ER diagrams. The project used web
-            technologies such as \textbf{HTML5} and the Wave platform's API,
-            which is based in \textbf{Java}.
+            \url{http://jool.mx/} \&\\
+            \url{https://github.com/NICMx/NAT64}
 
 	\end{cvlist}
 
-    \begin{cvlist}{Other Project(s)}
-		\item [January 2012 - May 2012]
-            \textbf{Operating Systems Project}(Aalto University, Finland)\\
-            Successfully extended an incomplete operating system; implemented
-            the scheduler, system calls, file system, network driver,
-            concurrency manager, memory management, a shell, among other
-            things; The target hardware was based on the MIPS architecture.
-	\end{cvlist}
+    %\begin{cvlist}{Other Project(s)}
+	%	\item [January 2012 - May 2012]
+    %        \textbf{Operating Systems Project}(Aalto University, Finland)\\
+    %        Successfully extended an incomplete operating system; implemented
+    %        the scheduler, system calls, file system, network driver,
+    %        concurrency manager, memory management, a shell, among other
+    %        things; The target hardware was based on the MIPS architecture.
+	%\end{cvlist}
 
 	\begin{cvlist}{Technical Skills}
 			\item [\textsc{Languages}]
-                Python (main language), C++, C, Go, bash scripting, Ruby, Java,
-                SQL, Javascript
+                Golang, Python, bash, C, C++, Ruby, Java, Javascript
 			\item [\textsc{Technologies}]
-                OpenStack, Ansible, OpenShift, Puppet, Docker, libvirt, GStreamer
+                OpenShift, Kubernetes, OpenStack, Ansible, Puppet,
+                Docker/Podman, libvirt, GStreamer
 			\item [\textsc{Development Tools}]
                 Git, Gerrit, Subversion, Mercurial, GNU Make, CMake
 			\item [\textsc{SW Development Methods}]
 				Fond of Continuous Integration for Software.\\
                 Test-Driven Development\\
-                Agile Methodologies (Kanban, Extreme Programming \& Scrum)
+                Agile Methodologies (Kanban, \& Scrum)
 			\item [\textsc{Operating Systems}]
-                Linux (I've used and administered CentOS, Archlinux and Fedora
-                mainly, but have also used Ubuntu and Debian to some extent).
+                Linux (CoreOS, RHEL, CentOS, Archlinux and Fedora)
+	\end{cvlist}
+
+    \begin{cvlist}{Books \& Publications}
+		\item []
+            (May 2020) \href{https://www.amazon.com/dp/B087YSL9L2}{OpenShift Security Guide}
+	\end{cvlist}
+
+    \begin{cvlist}{Open Source Community Positions}
+		\item []
+            I'm a core-developer in the \textbf{Barbican} project (Secret
+            Storage As a Service) and \textbf{TripleO} project (OpenStack
+            over Openstack - a cloud deployment tool) in the OpenStack
+            community. I aslo served as the Project Technical Lead for the
+            TripleO project, and lead the TripleO Security Squad.
 	\end{cvlist}
 
 	\begin{cvlist}{Education}
@@ -151,8 +161,7 @@
 			ITESM, Campus Monterrey. Monterrey N.L., M\'{e}xico\\
 			\emph{BCT - B.S. Computer Science and Technology (4.5 years)}\\
 			MI - International Modality(
-            \href{http://www.mty.itesm.mx/rectoria/dda/dacmi}
-            {http://www.mty.itesm.mx/rectoria/dda/dacmi})\\
+            \url{http://www.mty.itesm.mx/rectoria/dda/dacmi})\\
 			Education grade point average: \emph{92/100}
 	\end{cvlist}
 
@@ -160,19 +169,19 @@
 		\item [\textsc {Spanish}]
 				Native
 		\item [\textsc {English}]
-				TOEFL IBT: \emph{103/120} - working language
+				Working language
 		\item [\textsc {Finnish}]
 				Basic
 		\end{cvlist}
 
-	\begin{cvlist}{Other Activities}
-		\item [2010 - 2012] GULTec - ITESM Linux User Group.\\
-			I organized and helped organize technical workshops, which were
-            given for free either by me, other members of the group, or by
-            professionals. I also was part of the organization of the event
-            called ``Interunivesitario de Software Libre''. There, I gave a
-            presentation about Open-Source Compliance.
-    \end{cvlist}
+	%\begin{cvlist}{Other Activities}
+	%	\item [2010 - 2012] GULTec - ITESM Linux User Group.\\
+	%		I organized and helped organize technical workshops, which were
+    %        given for free either by me, other members of the group, or by
+    %        professionals. I also was part of the organization of the event
+    %        called ``Interunivesitario de Software Libre''. There, I gave a
+    %        presentation about Open-Source Compliance.
+    %\end{cvlist}
 
 \end{cv}
 
